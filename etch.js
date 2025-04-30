@@ -8,5 +8,9 @@ for(let i =1;i<273;i++){
     box.appendChild(div);
 }
 
+const btn = document.querySelector('#btn');
 
-
+btn.addEventListener("click",()=> {
+    let size = prompt("What size would you like?")
+    return size;
+})
